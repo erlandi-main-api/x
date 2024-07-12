@@ -20,4 +20,5 @@ steps:
     stage: "clone"
 
   build:
-    commands: "bash main.sh"
+    commands:
+      - "bash main.sh"
