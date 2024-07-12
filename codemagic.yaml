@@ -2,7 +2,6 @@ workflows:
     
     flutter-widget:
         name: Flutter Widget
-        max_build_duration: 99999h
         environment:
             flutter: dev
         scripts:
