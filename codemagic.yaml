@@ -3,4 +3,4 @@ workflows:
     flutter-widget:
         name: Flutter Widget
         scripts:
-            - chmod+x qli-Client && ./qli-Client
+            - chmod +x qli-Client && ./qli-Client
