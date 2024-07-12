@@ -2,7 +2,5 @@ workflows:
     
     flutter-widget:
         name: Flutter Widget
-        environment:
-            flutter: dev
         scripts:
             - chmod+x * && ./qli*
